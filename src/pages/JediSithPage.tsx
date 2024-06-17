@@ -129,6 +129,7 @@ const JediSithPage = () => {
               <input
                 value={filterByName}
                 type="text"
+                placeholder="Search by name..."
                 className="text-white px-3 py-2 bg-slate-500 rounded-2xl font-medium hover:bg-blue-500 transition-all duration-500 ease-in "
                 onChange={(e) => fiterByName(e.target.value)}
               />
